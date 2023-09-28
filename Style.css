@@ -1,0 +1,122 @@
+/* Resetting default margin and padding for all elements */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Setting the overall body styles */
+body {
+  font-family: "Roboto", sans-serif; /*Fallback font in case Open Sans isn't loaded*/
+  background-color: rgb(
+    236,
+    240,
+    239
+  ); /* Background color for the entire page */
+}
+
+/* Styles for the container that holds content */
+.container {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  width: 320px;
+}
+
+/* Paragraph styles */
+.para {
+  font-size: 24px;
+  margin-left: 30px;
+  line-height: 40px;
+
+  position: absolute;
+  top: 36%;
+  left: 25%;
+}
+
+/* Header styles */
+header {
+  width: 320px;
+  height: 350px;
+  position: absolute;
+  top: 20%;
+  left: 57%;
+  background-color: #ffffff; /* White background for the header */
+}
+
+/* Input box styles */
+.box input {
+  width: 75%;
+  margin: 10px;
+  margin-top: 18px;
+  margin-left: 23px;
+  padding: 13px 18px;
+  border-radius: 7px;
+  outline-style: none;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+/* Styles for the login button */
+.loginBtn {
+  width: 80%;
+  text-align: center;
+  background-color: #1877f2;
+  margin-top: 10px;
+  margin-left: 31px;
+  padding: 11px;
+  border-radius: 7px;
+  border: none;
+  color: #ffffff; /* Text color for the button */
+  font-size: 20px;  /* Font size for the button text */
+  font-weight: bold; /* Make the button text bold */
+}
+
+/* Hover styles for the login button */
+.loginBtn:hover {
+  background: #1366d1; /* Background color change on hover */
+}
+
+/* Styles for links in the .link1 class */
+.link1 {
+  text-align: center;
+  margin-top: 12px;
+}
+
+.link1 a {
+  text-decoration: none; /* Remove underline from links */
+  color: #2c83f2; /* Text color for links */
+  font-size: 14px; /* Font size for link text */
+}
+
+/* Hover styles for links */
+a:hover {
+  text-decoration: underline; /* Underline links on hover */
+}
+
+/* Styles for the "Create" button */
+.creatBtn {
+  width: 50%;
+  margin: 23%;
+  text-align: center;
+  margin-top: 9px;
+  background-color: #42b72a;
+  padding: 11px;
+  border-radius: 7px;
+  border: none;
+  color: #ffffff; /* Text color for the button */
+  font-size: 15px; /* Font size for the button text */
+  margin-left: 85px;
+}
+
+/* Hover styles for the "Create" button */
+.creatBtn:hover {
+  background: #3ba327; /* Background color change on hover */
+}
+
+/* Styles for a common element with class "style" */
+.style {
+  align-items: center;
+  border-bottom: 1px solid #dadde1;
+  display: flex;
+  margin: 20px 16px;
+  text-align: center;
+}
